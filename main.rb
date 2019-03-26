@@ -282,7 +282,7 @@ end
 
 #”ぶきる”とチャットに入力があった場合反応
 bot.command :る do |event|
-  event.respond "＼ #{all[rand(all.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{all[rand(all.length)]} ／ を 使うでし！"
 end
 
 #”ぶきリグ”とチャットに入力があった場合反応
@@ -307,57 +307,57 @@ end
 
 #”ぶきアーマー”とチャットに入力があった場合反応
 bot.command :アーマー do |event|
-  event.respond "＼ #{armo[rand(armo.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{armo[rand(armo.length)]} ／ を 使うでし！"
 end
 
 #”ぶきアメ”とチャットに入力があった場合反応
 bot.command :アメ do |event|
-  event.respond "＼ #{rain[rand(rain.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{rain[rand(rain.length)]} ／ を 使うでし！"
 end
 
 #”ぶきチャクチ”とチャットに入力があった場合反応
 bot.command :チャクチ do |event|
-  event.respond "＼ #{land[rand(land.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{land[rand(land.length)]} ／ を 使うでし！"
 end
 
 #”ぶきジェッパ”とチャットに入力があった場合反応
 bot.command :ジェッパ do |event|
-  event.respond "＼ #{jetp[rand(jetp.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{jetp[rand(jetp.length)]} ／ を 使うでし！"
 end
 
 #”ぶきボムピ”とチャットに入力があった場合反応
 bot.command :ボムピ do |event|
-  event.respond "＼ #{bomb[rand(bomb.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{bomb[rand(bomb.length)]} ／ を 使うでし！"
 end
 
 #”ぶきスフィア”とチャットに入力があった場合反応
 bot.command :スフィア do |event|
-  event.respond "＼ #{sphe[rand(sphe.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{sphe[rand(sphe.length)]} ／ を 使うでし！"
 end
 
 #”ぶきバブル”とチャットに入力があった場合反応
 bot.command :バブル do |event|
-  event.respond "＼ #{bubb[rand(bubb.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{bubb[rand(bubb.length)]} ／ を 使うでし！"
 end
 
 #”ぶきハイプレ”とチャットに入力があった場合反応
 bot.command :ハイプレ do |event|
-  event.respond "＼ #{pres[rand(pres.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{pres[rand(pres.length)]} ／ を 使うでし！"
 end
 
 #”ぶきマルミ”とチャットに入力があった場合反応
 bot.command :マルミ do |event|
-  event.respond "＼ #{miss[rand(miss.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{miss[rand(miss.length)]} ／ を 使うでし！"
 end
 
 #”ぶきナイス”とチャットに入力があった場合反応
 bot.command :ナイス do |event|
-  event.respond "＼ #{nice[rand(nice.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{nice[rand(nice.length)]} ／ を 使うでし！"
 end
 
 #”ぶきハンコ”とチャットに入力があった場合反応
 bot.command :ハンコ do |event|
-  event.respond "＼ #{unco[rand(unco.length)]} ／ を 使うでし！"
+  event.respond "#{event.user.name} は ＼ #{unco[rand(unco.length)]} ／ を 使うでし！"
 end
 
 #”ぶきヘルプ”とチャットに入力があった場合反応
