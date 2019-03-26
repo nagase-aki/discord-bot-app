@@ -286,7 +286,7 @@ bot.command :る do |event|
 end
 
 #”ぶきリグ”とチャットに入力があった場合反応
-bot.command :リグ do |event|
+bot.command :りぐ do |event|
   event.respond "
 ＼このチーム は このブキ で 戦うでし！／
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
@@ -297,7 +297,7 @@ bot.command :リグ do |event|
 end
 
 #”ぶきペア”とチャットに入力があった場合反応
-bot.command :ペア do |event|
+bot.command :ぺあ do |event|
   event.respond "
 ＼ふたり は このブキ で 戦うでし！／
 ￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣
