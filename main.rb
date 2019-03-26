@@ -2,9 +2,7 @@ require 'discordrb'
 
 #client_idはbotに設定されているものを入力 prefixはコマンドの呼び出しの時の記号(!play 等の!部分 ?とかでも可)
 bot = Discordrb::Commands::CommandBot.new token: 'NTU0MTA0NTQ1ODAyNzE1MTg3.D2Xxsg.Q40TDn2pRQj-cPsZkSVoKyr1K8M', client_id: 554104545802715187, prefix: "ぶき"
-#スプラトゥーンの武器名が入っているcsvファイルを読み込み
 
-#ブキ一覧
 #すべてのブキランダム
 all = ["ボールドマーカー",
 "ボールドマーカーネオ",
@@ -177,18 +175,5 @@ bot.command :2 do |event|
    ◆ #{all[rand(all.length)]}"
 end
 
-#”ぶきヘルプ”とチャットに入力があった場合反応
-bot.command :ヘルプ do |event|
-  event.respond "
-ぶきコマンド一覧
-￣￣￣￣￣￣￣￣
-ぶきヘルプ……この文章の表示
-
-ぶきる……ひとり用ブキルーレット
-ぶきち……プラベ用ブキルーレット
-
-ぶき４……４リグ用ブキルーレット
-ぶき２……２リグ用ブキルーレット"
-end
 
 bot.run
